@@ -1,6 +1,7 @@
 import profilePic from "../assets/profile2.jpg";
 import { HERO_CONTENT } from "../constants";
 import { motion, stagger } from "framer-motion";
+import { Typewriter } from "react-simple-typewriter";
 
 const containerVariants = {
   hidden: { opacity: 0, x: -100 },
@@ -22,7 +23,6 @@ const childVariants = {
     transition: { duration: 0.5 },
   },
 };
-
 
 const Hero = () => {
   return (
@@ -58,7 +58,19 @@ const Hero = () => {
               variants={childVariants}
               className="bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text text-3xl tracking-tight text-transparent"
             >
-              Full Stack Developer
+              <Typewriter
+                words={[
+                  "Frontend Developer",
+                  "Backend Developer",
+                  "Full Stack Developer",
+                ]}
+                loop={true}
+                cursor
+                cursorStyle="|"
+                typeSpeed={50}
+                deleteSpeed={50}
+                delaySpeed={1000}
+              />
             </motion.span>
             <motion.p
               variants={childVariants}
