@@ -1,4 +1,4 @@
-import profilePic from "../assets/profile2.jpg";
+import profilePic from "../assets/profile2.jpg"
 import {HERO_CONTENT} from "../constants"
 
 const Hero = () => {

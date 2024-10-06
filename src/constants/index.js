@@ -1,7 +1,7 @@
-import project1 from "../assets/projects/project-1.webp";
-import project2 from "../assets/projects/project-2.webp";
-import project3 from "../assets/projects/project-3.webp";
-import project4 from "../assets/projects/project-4.webp";
+import project1 from "../assets/projects/v1.png";
+import project2 from "../assets/projects/ip13.png";
+import project3 from "../assets/projects/larablog.png";
+import project4 from "../assets/projects/book-review.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -40,37 +40,37 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "v1",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "my very first portfolio, built with HTML for formatting and tailwindcss for styling.",
+    technologies: ["HTML", "Javascript" , "TailwindCSS"],
   },
   {
-    title: "Task Management App",
+    title: "Iphone 13",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "A landing page for an Apple Iphone product, built with HTML and TailwindCSS.",
+    technologies: ["HTML", "TailwindCSS", "Javascript"],
   },
   {
-    title: "Portfolio Website",
+    title: "Larablog",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "A simple blog platform built with Laravel and Bootstrap. first time using it",
+    technologies: ["HTML", "CSS", "Javascript", "Bootstrap", "Laravel", "mySQL"],
   },
   {
-    title: "Blogging Platform",
+    title: "Book Review",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A platform for creating and publishing book reviews. and its a full stack project with comment feature.",
+    technologies: ["HTML", "CSS", "Bootstrap", "Javascript", "Laravel" ,"mySQL"],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Makassar, South Sulawesi, Indonesia",
+  phoneNo: "08saranghae",
+  email: "altafpasallo12@gmail.com",
 };
