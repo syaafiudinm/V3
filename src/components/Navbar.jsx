@@ -17,10 +17,13 @@ const Navbar = () => {
         >
           <FaGithub />
         </a>
-        <a href="https://instagram.com/syaafiudinm" aria-label="Instagram"
-        target="_blank"
-        rel="noopener noreferrer">
-            <FaInstagram />
+        <a
+          href="https://instagram.com/syaafiudinm"
+          aria-label="Instagram"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaInstagram />
         </a>
       </div>
     </nav>
