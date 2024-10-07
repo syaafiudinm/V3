@@ -21,7 +21,7 @@ const App = () => {
         <Hero />
         <Technologies />
         <Projects />
-        <hr className="border-t border-stone-900"/>
+        <hr className="border-t border-stone-900" />
         <Contact />
       </div>
     </div>

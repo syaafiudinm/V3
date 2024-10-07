@@ -60,14 +60,13 @@ const Hero = () => {
             >
               <Typewriter
                 words={[
-                  "Frontend Developer",
-                  "Backend Developer",
                   "Full Stack Developer",
+                  "Laravel Addicted"
                 ]}
                 loop={true}
                 cursor
                 cursorStyle="|"
-                typeSpeed={70}
+                typeSpeed={90}
                 deleteSpeed={50}
                 delaySpeed={1000}
               />
