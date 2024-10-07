@@ -56,7 +56,7 @@ const Hero = () => {
             </motion.h2>
             <motion.span
               variants={childVariants}
-              className="bg-gradient-to-r text-center from-stone-300 to-stone-600 bg-clip-text text-3xl tracking-tight text-transparent"
+              className="bg-gradient-to-r text-center from-stone-300 to-stone-600 bg-clip-text text-2xl tracking-tight text-transparent"
             >
               <Typewriter
                 words={[
